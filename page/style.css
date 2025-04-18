@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(143, 145, 130);
+}
+
+nav {
+    background-color: black;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 4vw;
+    width: 10vw;
+}
+
+header {
+    display: flex;
+    background-color: rgb(20, 8, 56);
+    color: aliceblue;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.leftpart {
+    display: flex;
+    gap: 1vw;
+}
+
+.image {
+    height: 30vw;
+    width: 100vw;
+    display: flex;
+}
+
+.firstimage {
+    height: 30vw;
+    width: 50vw;
+    text-align: center;
+    align-content: center;
+    font-size: 42px;
+    overflow: auto;
+    background-color: rgb(15, 15, 71);
+    color: aliceblue;
+}
+
+.secondimage img {
+    height: 30vw;
+    width: 50vw;
+}
+
+.firstimage div:first-child {
+    text-align: left;
+}
+
+.zindex {
+    background-color: aliceblue;
+    text-align: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    position: relative;
+    top: -60px;
+}
+
+.photo {
+    height: 80vw;
+    width: 100vw;
+    background-color: rgb(194, 154, 154);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img {
+    background-color: aliceblue;
+    height: 34vw;
+    width: 21vw;
+    margin: 1vw;
+    padding: 1vw;
+}
+
+.img img {
+    height: 30vw;
+    width: 21vw;
+}
+.back{
+    background-color: rgb(15, 15, 71);
+    color: white;
+    text-align: center;
+    width: 100vw;
+}
+.contents{
+    height: 28vw;
+    width: 100vw;
+   background-color: rgb(8, 8, 46);
+   display: flex;
+ 
+}
+.content{
+    height: 26vw;
+width: 31.33vw;
+margin: 1vw;
+text-align: center;
+align-content: center;
+font-size: larger;
+color: aliceblue;
+}
+hr{
+    background-color: white;
+    width: 100vw;
+    height: 2px;
+    position: relative;
+    top: -5px;
+}
+.footer{
+    height: auto;
+    width: 100vw;
+    background-color: black;
+    color: whitesmoke;
+    text-align: center;
+}
+@media (max-width:767px) {
+ .firstimage{
+    font-size: 23px;
+ }   
+ .zindex{
+    font-size: 8px;
+    height: 20px;
+align-content: center; 
+}
+.leftpart{
+    font-size: 12px;
+}
+.rightpart{
+    font-size: 12px;
+}
+nav{
+    font-size: 5px;
+}
+.content{
+    font-size: 15px;
+}
+.footer{
+    font-size: 9px;
+}
+}
+@media (max-width:350px) {
+    .content{
+        font-size: 10px;
+    }   
+}
